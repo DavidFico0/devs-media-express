@@ -1,0 +1,299 @@
+body{
+  margin:0;
+  padding: 0;
+  
+}
+
+h2{
+  color: white;
+}
+
+header{
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+#home{
+  background-image: url(/images/fundo-home.jpg);
+  background-size: cover;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+#contato-home{
+  width: 900px;
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#contato-home p{
+  margin:0;
+  padding:0;
+}
+
+#container-logo{
+  text-align: center;
+  margin-top: 10%;
+}
+
+.logo-principal{
+  width: 550px;
+}
+
+#nav-principal{
+  list-style: none;
+}
+
+.link-nav{
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link-nav:hover{
+  text-decoration: none;
+  color: #480363;
+}
+
+#nav-social-media {
+  list-style: none;
+}
+
+#nav-social-media li{
+  display: inline;
+  padding-left: 10px;
+}
+
+.img-social-media{
+  width: 20px;
+}
+
+
+/* Seção sobre */
+#sobre {
+  height: 100vh;
+}
+
+.titulo-perfil {
+  color: black;
+}
+
+#sobre p {
+  color: black;
+}
+
+.titulo-sobre{
+  color: white;
+  text-align: center;
+}
+
+.img-ico{
+  width: 190px;
+}
+
+#sobre h2{
+  margin-top: 10px;
+}
+
+#sobre p{
+  text-align: justify;
+  margin: 10px;
+}
+
+#header-sobre{
+  height: 200px;
+}
+
+#header-sobre{
+  color: white;
+}
+
+.logo-sobre {
+  width: 220px;;
+}
+
+#perfil{
+  border-radius: 100%;
+  background-color: #3a3939;
+  background-image: url(/images/perfil.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+}
+
+/* Portfoleo */
+
+#portfoleo{
+  background-image: url(/images/fundo-portfoleo.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.titulo-portfoleo{
+  color: white;
+  text-align: center;
+}
+
+#portfoleo h2, p{
+  color: white;
+}
+
+.img-portfoleo{
+  height: 75vh;
+}
+
+/* Contato */
+
+#contato{
+  height: 100hv;
+}
+
+#contato ul {
+  list-style: none;
+  font-size: large;
+}
+
+.titulo-contato{
+  text-align: center;
+  color: white;
+}
+
+#contato p{
+  color:black;
+}
+
+#contato button{
+  border-color: #480363;
+  color: white;
+}
+
+.sub-titulo-contato{
+  color:black;
+}
+
+.contato-item{
+  color: #480363;
+}
+
+input {
+  width: 100%;
+  height: 35px;
+}
+
+textarea {
+  width: 100%;
+}
+
+footer {
+  height: 150px;
+  background-color: hsl(0, 0%, 15%);
+}
+
+.footer-logo {
+  width: 110px;
+}
+
+footer p{
+  font-size: large;
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+
+  #container-logo{
+      text-align: center; 
+      margin-top: 25%;
+  }
+
+  .logo-principal{
+      width: 350px;
+  }
+  #contato-home{
+      width: 100%;
+      margin-top: 25%;
+      text-align: center;
+  }
+
+  /* SOBRE */
+  #sobre{
+      height: auto;
+  }
+
+  .img-ico{
+      width: 110px;
+  }
+  
+  #sobre h2{
+      margin-top: 5px;
+  }
+
+  .logo-sobre {
+      width: 150px;;
+  }
+  
+  #perfil{
+      border-radius: 100%;
+      background-color: #3a3939;
+      background-image: url(/images/perfil.jpg);
+      background-size: cover;
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  .titulo-perfil {
+      color: black;
+      font-size: 18px;
+      text-align: center;
+  }
+  
+  #sobre p {
+      color: black;
+      font-size: 10px;
+  }
+  
+  .titulo-sobre{
+      color: white;
+      text-align: center;
+      font-size: 18px;
+  }
+
+  /* Portfoleo */
+  #portfoleo{
+      height: auto;
+  }
+  .titulo-portfoleo{
+      color: white;
+      text-align: center;
+  }
+  
+  #portfoleo h2{
+      color: white;
+      font-size: 18px;
+      text-align: center;
+  }
+
+  #portfoleo p {
+      color: white;
+      font-size: 10px;
+      text-align: justify;
+  }
+  
+  .img-portfoleo{
+      
+      height: 35vh;
+  }
+
+}
